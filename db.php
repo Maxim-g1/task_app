@@ -12,3 +12,9 @@ $connection = new mysqli($host, $username, $password, $database);
 if ($connection->connect_error) {
     die("Ошибка подключения " . $connection->connect_error);
 }
+
+// id int A_I
+// task varchar(255)
+// task_date date
+// task_time time
+// priority enum(low,medium,high)
